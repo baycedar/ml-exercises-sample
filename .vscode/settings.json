@@ -1,0 +1,91 @@
+{
+  // explorer settings
+  "files.exclude": {
+    "**/.venv/**": true,
+    "**/venv/**": true,
+    "**/__pycache__/**": true,
+    "**/.pytest_cache/**": true,
+  },
+  // Python settings
+  "[python]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.tabSize": 4,
+    "editor.rulers": [
+      88,
+      100,
+    ],
+    "editor.defaultFormatter": "ms-python.black-formatter",
+  },
+  "notebook.formatOnSave.enabled": true,
+  "notebook.defaultFormatter": "ms-python.black-formatter",
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [
+    "test"
+  ],
+  "flake8.enabled": true,
+  "flake8.args": [
+    "--ignore=E203,W503",
+    "--max-line-length=100",
+  ],
+  // Markdown settings
+  "[markdown]": {
+    "editor.tabSize": 4,
+    "files.trimTrailingWhitespace": false,
+  },
+  "markdown.extension.list.indentationSize": "inherit",
+  "markdown.extension.tableFormatter.enabled": false,
+  "markdown.extension.toc.levels": "2..4",
+  // local dictionary
+  "cSpell.enabledFileTypes": {
+    "*": true,
+    "ignore": false
+  },
+  "cSpell.words": [
+    "arange",
+    "Colab",
+    "Colaboratory",
+    "consolas",
+    "dbgroup",
+    "dtype",
+    "eigen",
+    "enduml",
+    "hstack",
+    "imshow",
+    "ipynb",
+    "joblib",
+    "libbz",
+    "libncursesw",
+    "mathbf",
+    "matplotlib",
+    "ndarray",
+    "ndim",
+    "noqa",
+    "NUCT",
+    "numpy",
+    "pinv",
+    "pipenv",
+    "Pipfile",
+    "pmatrix",
+    "pyenv",
+    "pyplot",
+    "pytest",
+    "savetxt",
+    "scikit",
+    "scipy",
+    "skinparam",
+    "sklearn",
+    "startuml",
+    "toarray",
+    "Vectorizer",
+    "venv",
+    "virtualenv",
+    "Voronoi",
+    "vstack",
+    "xdata",
+    "xlim",
+    "ydata",
+    "ylim"
+  ],
+}
